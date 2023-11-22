@@ -252,6 +252,8 @@ github.com/GaijinEntertainment/go-exhaustruct/v3 v3.1.0/go.mod h1:rZLTje5A9kFBe0
 github.com/IBM/sarama v1.40.1 h1:lL01NNg/iBeigUbT+wpPysuTYW6roHo6kc1QrffRf0k=
 github.com/IBM/sarama v1.40.1/go.mod h1:+5OFwA5Du9I6QrznhaMHsuwWdWZNMjaBSIxEWEgKOYE=
 github.com/Knetic/govaluate v3.0.1-0.20171022003610-9aa49832a739+incompatible/go.mod h1:r7JcOSlj0wfOMncg0iLm8Leh48TZaKVeNIfJntJ2wa0=
+github.com/MSalopek/cosmos-sdk v0.47.5-dydx-stream h1:Z5fwqa84TxnSbEuTmdfycBNIopBE+79+OEX6FHkFaUs=
+github.com/MSalopek/cosmos-sdk v0.47.5-dydx-stream/go.mod h1:iaAXVu5Jcd//vREctLTuxLqj5ScUP4psgqW7M6XsaQ8=
 github.com/Masterminds/semver v1.5.0 h1:H65muMkzWKEuNDnfl9d70GUjFniHKHRbFPGBuZ3QEww=
 github.com/Masterminds/semver v1.5.0/go.mod h1:MB6lktGJrhw8PrUyiEoblNEGEQ+RzHPF078ddwwvV3Y=
 github.com/Microsoft/go-winio v0.5.0/go.mod h1:JPGBdM1cNvN/6ISo+n8V5iA4v8pBzdOpzfwIujj1a84=
@@ -505,8 +507,6 @@ github.com/dvsekhvalnov/jose2go v1.5.0 h1:3j8ya4Z4kMCwT5nXIKFSV84YS+HdqSSO0VsTQx
 github.com/dvsekhvalnov/jose2go v1.5.0/go.mod h1:QsHjhyTlD/lAVqn/NSbVZmSCGeDehTB/mPZadG+mhXU=
 github.com/dydxprotocol/cometbft v0.37.3-0.20230908230338-65f7a2f25c18 h1:1RIco92QcPS24BeNCNWJC4zXza4GEHHuoviWIQEQ/NI=
 github.com/dydxprotocol/cometbft v0.37.3-0.20230908230338-65f7a2f25c18/go.mod h1:cpghf0+1GJpJvrqpTHE6UyTcD05m/xllo0xpufL3PgA=
-github.com/dydxprotocol/cosmos-sdk v0.47.5-0.20231025201005-bef8a051e94f h1:q1WhMJ0EjcF2Tj7MBPd+nacxmj3juiRwz11MZ+m6WAE=
-github.com/dydxprotocol/cosmos-sdk v0.47.5-0.20231025201005-bef8a051e94f/go.mod h1:iaAXVu5Jcd//vREctLTuxLqj5ScUP4psgqW7M6XsaQ8=
 github.com/eapache/go-resiliency v1.1.0/go.mod h1:kFI+JgMyC7bLPUVY133qvEBtVayf5mFgVsvEsIPBvNs=
 github.com/eapache/go-resiliency v1.3.0 h1:RRL0nge+cWGlxXbUzJ7yMcq6w2XBEr19dCN6HECGaT0=
 github.com/eapache/go-resiliency v1.3.0/go.mod h1:5yPzW0MIvSe0JDsv0v+DvcjEv2FyD6iZYSs1ZI+iQho=
