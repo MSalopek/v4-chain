@@ -3,6 +3,7 @@ package app
 import (
 	"context"
 	"encoding/json"
+	"fmt"
 	"io"
 	"math"
 	"math/big"
@@ -34,6 +35,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/server/api"
 	"github.com/cosmos/cosmos-sdk/server/config"
 	servertypes "github.com/cosmos/cosmos-sdk/server/types"
+	"github.com/cosmos/cosmos-sdk/store/streaming"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
@@ -95,6 +97,7 @@ import (
 	"github.com/dydxprotocol/v4-chain/protocol/app/middleware"
 	"github.com/dydxprotocol/v4-chain/protocol/app/prepare"
 	"github.com/dydxprotocol/v4-chain/protocol/app/process"
+
 	// Lib
 	"github.com/dydxprotocol/v4-chain/protocol/app/stoppable"
 	"github.com/dydxprotocol/v4-chain/protocol/lib"
@@ -359,7 +362,14 @@ func New(
 		rewardsmoduletypes.TransientStoreKey,
 		indexer_manager.TransientStoreKey,
 	)
+
 	memKeys := sdk.NewMemoryStoreKeys(capabilitytypes.MemStoreKey, clobmoduletypes.MemStoreKey)
+
+	// load state streaming if enabled
+	if _, _, err := streaming.LoadStreamingServices(bApp, appOpts, appCodec, logger, keys); err != nil {
+		fmt.Printf("failed to load state streaming: %s", err)
+		os.Exit(1)
+	}
 
 	app := &App{
 		BaseApp:           bApp,
