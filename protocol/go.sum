@@ -505,8 +505,6 @@ github.com/dvsekhvalnov/jose2go v1.5.0 h1:3j8ya4Z4kMCwT5nXIKFSV84YS+HdqSSO0VsTQx
 github.com/dvsekhvalnov/jose2go v1.5.0/go.mod h1:QsHjhyTlD/lAVqn/NSbVZmSCGeDehTB/mPZadG+mhXU=
 github.com/dydxprotocol/cometbft v0.37.3-0.20230908230338-65f7a2f25c18 h1:1RIco92QcPS24BeNCNWJC4zXza4GEHHuoviWIQEQ/NI=
 github.com/dydxprotocol/cometbft v0.37.3-0.20230908230338-65f7a2f25c18/go.mod h1:cpghf0+1GJpJvrqpTHE6UyTcD05m/xllo0xpufL3PgA=
-github.com/dydxprotocol/cosmos-sdk v0.47.5-0.20240111163003-128eb0a555af h1:k2P6lzSMdE0fUPsJ4jLEBqbLVZQoqJ0zbQASoPxh+T4=
-github.com/dydxprotocol/cosmos-sdk v0.47.5-0.20240111163003-128eb0a555af/go.mod h1:iaAXVu5Jcd//vREctLTuxLqj5ScUP4psgqW7M6XsaQ8=
 github.com/eapache/go-resiliency v1.1.0/go.mod h1:kFI+JgMyC7bLPUVY133qvEBtVayf5mFgVsvEsIPBvNs=
 github.com/eapache/go-resiliency v1.3.0 h1:RRL0nge+cWGlxXbUzJ7yMcq6w2XBEr19dCN6HECGaT0=
 github.com/eapache/go-resiliency v1.3.0/go.mod h1:5yPzW0MIvSe0JDsv0v+DvcjEv2FyD6iZYSs1ZI+iQho=
@@ -1097,6 +1095,8 @@ github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjY
 github.com/moricho/tparallel v0.3.1 h1:fQKD4U1wRMAYNngDonW5XupoB/ZGJHdpzrWqgyg9krA=
 github.com/moricho/tparallel v0.3.1/go.mod h1:leENX2cUv7Sv2qDgdi0D0fCftN8fRC67Bcn8pqzeYNI=
 github.com/mrunalp/fileutils v0.5.0/go.mod h1:M1WthSahJixYnrXQl/DFQuteStB1weuxD2QJNHXfbSQ=
+github.com/msalopek/cosmos-sdk v0.47.5-0.20240312194039-c9eecf553cf9 h1:eaQ8V7u5BTL6YErQ4FvzMkhaB14vNBPdr6txAVQD8LQ=
+github.com/msalopek/cosmos-sdk v0.47.5-0.20240312194039-c9eecf553cf9/go.mod h1:iaAXVu5Jcd//vREctLTuxLqj5ScUP4psgqW7M6XsaQ8=
 github.com/mtibben/percent v0.2.1 h1:5gssi8Nqo8QU/r2pynCm+hBQHpkB/uNK7BJCFogWdzs=
 github.com/mtibben/percent v0.2.1/go.mod h1:KG9uO+SZkUp+VkRHsCdYQV3XSZrrSpR3O9ibNBTZrns=
 github.com/mwitkow/go-conntrack v0.0.0-20161129095857-cc309e4a2223/go.mod h1:qRWi+5nqEBWmkhHvq77mSJWrCKwh8bxhgT7d/eI7P4U=
