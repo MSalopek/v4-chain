@@ -722,6 +722,10 @@ func New(
 
 	app.GrpcStreamingManager = getGrpcStreamingManagerFromOptions(appFlags, logger)
 
+	if err := bApp.RegisterStreamingServices(appOpts, keys); err != nil {
+		panic(err)
+	}
+
 	timeProvider := &timelib.TimeProviderImpl{}
 
 	app.EpochsKeeper = *epochsmodulekeeper.NewKeeper(
