@@ -754,6 +754,10 @@ func New(
 
 	app.FullNodeStreamingManager = getFullNodeStreamingManagerFromOptions(appFlags, logger)
 
+	if err := bApp.RegisterStreamingServices(appOpts, keys); err != nil {
+		panic(err)
+	}
+
 	timeProvider := &timelib.TimeProviderImpl{}
 
 	app.EpochsKeeper = *epochsmodulekeeper.NewKeeper(
